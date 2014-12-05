@@ -1,0 +1,22 @@
+{
+  "name": "hellonar",
+  "version": "1.0.0",
+  "description": "hello world packaged by NAR",
+  "main": "index.js",
+  "archive":{
+    "binary": true,
+    "global-dependencies":["npm"]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "hello world",
+    "nar"
+  ],
+  "author": "hayk saakian",
+  "license": "CC0",
+  "dependencies": {
+  }
+}
