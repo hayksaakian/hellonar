@@ -4,7 +4,6 @@
   "description": "hello world packaged by NAR",
   "main": "index.js",
   "archive":{
-    "binary": true,
     "global-dependencies":["npm"]
   },
   "scripts": {
